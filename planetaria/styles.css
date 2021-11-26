@@ -1,0 +1,83 @@
+body{
+    background-color:white;
+    margin:0 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+canvas{
+    border:2px solid black;
+}
+.canvas-container{
+}
+#myCanvas1{
+    position:absolute;
+    left:0px;
+    z-index:0;
+    background-color:black;
+}
+#myCanvas2{
+    position:absolute;
+    left:0px;
+    z-index:1;
+}
+.right-container{
+  position:absolute;
+  z-index:2;
+  right:30px;
+  top:75px;
+  width:280px;
+  color:white;
+  background-color:transparent;
+}
+.left-container{
+  left:50px;
+  top:175px;
+  position:absolute;
+  z-index:2;
+  color:white;
+  background-color:transparent;
+}
+#image-container{
+  background-color:rgba(255,255,255,0.3);
+  text-align:center;
+}
+#text-container{
+  background-color:rgba(0,0,0,0.75);
+  margin-top:20px;
+  padding:10px;
+  text-align:justify;
+}
+
+/* Specific Icon related targets */
+.p-icon{
+  length:80px;
+  width:80px;
+  margin:5px 10px;
+}
+.p-icon:hover{
+  length:100px;
+  width:100px;
+}
+.pagelink{
+  text-decoration:none;
+  color:orange;
+}
+#heading{
+  position:absolute;
+  top:0px;
+  left:30px;
+  font-size:4rem;
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  z-index:2;
+}
+#icon-text{
+  margin-top:20px;
+  font-size:2.5rem;
+  text-align:center;
+}
+#main-img{
+  margin-top:15px;
+  margin-bottom:15px;
+  height:188px;
+  width:250px;
+}

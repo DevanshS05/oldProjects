@@ -1,0 +1,52 @@
+/* Navigation Bar */
+.logo{
+ margin-left:5%;
+ font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar-nav{
+  margin-left:auto;
+}
+
+/* Title Container */
+.title-image-container{
+  text-align:center;
+  padding:0px;
+}
+.title-image{
+  width:100%;
+}
+h1{
+  font-weight:bold;
+  font-size:3.5rem;
+}
+.title-text:hover{
+  background-color:#d9d9d9;
+  color:#4d4d4d;
+}
+/* Quotes */
+.quote-container{
+  padding:10%;
+  font-size:1.5rem;
+}
+h2{
+  margin-bottom:20px;
+  text-align:center;
+}
+.quote{
+  font-size:1.5rem;
+  font-family: 'Patrick Hand', cursive;
+}
+/* Footer */
+.end-container{
+  padding:50px 10% 50px 10%;
+ background-color:#262626;
+ color:#ffffff;
+ text-align:center;
+ font-size:1.5rem;
+}
+.footer-item{
+  font-size:0.5rem;
+}
+.fa-twitter-square{
+  color:#1ab2ff;
+}

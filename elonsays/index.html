@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="An free REST API for random Elon Musk Quotes">
+  <meta name="keywords" content="API, Elon Musk, Quotes">
+  <meta name="author" content="Devansh Singh">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElonSays</title>
+  <link type="text/css" rel="stylesheet" href="styles.css">
+  <!-- <link rel="icon" href="images/web-development.png" type="image/gif"> -->
+  <!--Bootstrap-->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <!--Fonts-->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+  <div class="container-fluid" id="header"></div>
+
+
+    <div class="container-fluid" id="parent-container">
+      <h2 id="heading"><img src="images/man.ico">ElonSays</h2>
+      <h6 id="subheading">An free REST API for random Elon Musk Quotes (Elon as a service)</h6>
+
+      <div class="container-fluid" id="quote-box">
+        <span id="api-id" style="color:black;">https://thedevanshsingh.com/elonsays</span>
+        <button id="refresh"><img src="images/recycle.ico" style="height:20px;width:20px;">Refresh</button>
+        <br>
+        <span id="quote-display">Press refresh to get a quote!</span>
+      </div>
+
+      <div class="container-fluid" id="info-box">
+        <span id="i-1">Say hello <a href="https://thedevanshsingh.com" class="link">here</a><img src="images/hi.ico" style="height:25px;width:25px;margin-left:5px;"></span>
+        <span style="color:black;" > { Made by Devansh <img src="images/smile.png" style="height:25px;width:25px;"> } </span>
+        <span id="i-2">Source code <a href="https://github.io" class="link">here</a><img src="images/virus.ico" style="margin-left:5px;height:25px;width:25px;"></span>
+      </div>
+
+      <div class="container-fluid" id="quote-list-box">
+      <img src="images/finger.ico" id="hand" style="margin-left:10px;margin-right:5px;">
+      <button id="lst-btn">Quotes</button>
+      <p id="quote-b">
+
+      </p>
+      </div>
+
+    </div>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pixelator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d012ee64f9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="heading container-fluid">
+    <h1>PIXELATOR</h1>
+  </div>
+
+  <div class="container-fluid canvas-container">
+    <canvas id="myCanvas" height="280" width="300" style="border:3px solid black;"></canvas>
+  </div>
+
+  <div class="container-fluid toolbar-container">
+    <div>
+      <span><i>Colours</i>
+        <button class="colbtn" id="btn-1"></button>
+        <button class="colbtn" id="btn-2"></button>
+        <button class="colbtn" id="btn-3"></button>
+        <button class="colbtn" id="btn-4"></button>
+      </span>
+      <span>
+        <i>Tools</i>
+        <button class="toolbtn" id="btn-5">Draw</button>
+        <button class="toolbtn" id="btn-6">Erase</button>
+      </span>
+    </div>
+    <div style="margin-top:10px;">
+      <span><i>Brush/Eraser Size<i>
+            <button class="toolbtn2" id="btn-7">1</button>
+            <button class="toolbtn2" id="btn-8">2</button>
+            <button class="toolbtn2" id="btn-9">3</button>
+            <button class="toolbtn" style="margin-left:25px;" id="btn-10">Reset</button>
+      </span>
+    </div>
+  </div>
+
+  <div class="container-fluid footer">
+    <span>Made with <i style="color:red;" class="fas fa-heart"></i>
+      by <a href="http://thedevanshsingh.com" class="footer-link">Devansh</a>
+    </span>
+    <br>
+    <span style="font-size:0.8rem;margin-top:10px;font-family:Arial, Helvetica, sans-serif;">Hold control key while drawing/erasing!</span>
+  </div>
+
+  <!-- Importing the Javascript -->
+  <script src="myfile.js"></script>
+</body>
+
+
+</html>

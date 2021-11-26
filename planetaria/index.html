@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Planetaria</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts Below -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="right-container">
+    <!--Images and Description-->
+    <div id="image-container">
+      <img id="main-img" src="images/planet-images/galaxy-bg.jpg" alt="Main/Intended Image">
+    </div>
+
+    <div id="text-container">
+      Welcome to Planetaria.<br>
+      <strong>How to Use :- </strong><br>
+      * Hover over any of planet icons on the left side to view the planet in orbit.<br>
+      * Click on the icon to obtain more info about that particular object.<br>
+      Hope the user likes it!<br>
+    </div>
+  </div>
+
+  <div id="heading">
+    Planetaria
+    <div style="font-size:1.5rem;margin-top:0px;padding-top:0px;">By <a class="pagelink" href="http://www.thedevanshsingh.com">Devansh</a>
+
+    </div>
+  </div>
+
+  <div class="left-container">
+    <div>
+      <img id="sun-icon" class="p-icon" src="images/icons/sun.png" alt="sun">
+      <img id="mercury-icon" class="p-icon" src="images/icons/mercury.png" alt="mercury">
+    </div>
+    <div>
+      <img id="venus-icon" class="p-icon" src="images/icons/venus.png" alt="venus">
+      <img id="earth-icon" class="p-icon" src="images/icons/earth.png" alt="earth">
+    </div>
+    <div>
+      <img id="mars-icon" class="p-icon" src="images/icons/mars.png" alt="mars">
+      <img id="jupiter-icon" class="p-icon" src="images/icons/jupiter.png" alt="jupiter">
+    </div>
+    <div>
+      <img id="saturn-icon" class="p-icon" src="images/icons/saturn.png" alt="saturn">
+      <img id="uranus-icon" class="p-icon" src="images/icons/uranus.png" alt="uranus">
+    </div>
+    <div style="text-align:center">
+      <img id="neptune-icon" class="p-icon" src="images/icons/neptune.png" alt="neptune">
+    </div>
+    <div id="icon-text">
+      Select One!
+    </div>
+  </div>
+  <!--Icons-->
+
+  <div class="canvas-container">
+    <canvas id="myCanvas1"></canvas>
+    <canvas id="myCanvas2"></canvas>
+  </div>
+
+  <script type="text/javascript" src="myscript.js" charset="utf-8">
+  </script>
+</body>
+
+</html>

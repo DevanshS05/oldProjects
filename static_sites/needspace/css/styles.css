@@ -1,0 +1,82 @@
+/* Fixed for the boilerplate */
+#header {
+  background-color: #222831;
+  color: #FBFCFC;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#header-text {
+  font-size: 3rem;
+}
+
+#footer {
+  background-color: #222831;
+  color: #FBFCFC;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align:center;
+}
+
+#social-tab {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 10px;
+}
+
+#footer-text {
+  color: #FBFCFC;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration:none;
+}
+
+/*Styles  For Image Text containers */
+.image-container{
+  position:relative;
+  text-align:center;
+}
+.image-text-bottomleft{
+  position:absolute;
+  left:8%;
+  bottom:8%;
+  color:white;
+}
+.image-text-center{
+  position:absolute;
+  left:50%
+  bottom:50%;
+}
+.image-heading{
+  font-size:3rem;
+  font-weight:bold;
+  margin:0px;
+
+}
+.image-text{
+  margin:0px;
+  font-size:1.2rem;
+}
+.btn-img{
+  border:1px solid white;
+  color:white;
+}
+.btn-img:hover{
+  color:#626567;
+  background-color:white;
+}
+.quote-button{
+  width:90%;
+  margin:20px 5% 20px 5%;
+  font-weight:bold;
+  font-size:1.5rem;
+}
+.about-text{
+  font-size:1.5;
+  padding:20px 5% 20px 5%;
+  text-align:justify;
+}

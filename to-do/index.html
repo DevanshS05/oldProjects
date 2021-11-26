@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do</title>
+  </head>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      margin:0px;
+      background-color:#262626;
+      color:white;
+    }
+    #main-container{
+      background-color:#333333;
+      margin-top:150px;
+      max-width:600px;
+      min-width:400px;
+      padding-top:20px;
+      padding-bottom:20px;
+      width:80%;
+      margin-right:auto;
+      margin-left:auto;
+      text-align:center;
+      box-shadow: 0 4px 8px 0 rgba(51,51,51, 0.2), 0 6px 20px 0 rgba(51,51,51, 0.19);
+      border-radius:25px;
+    }
+    #lst{
+      list-style-type:none;
+      color:black;
+      margin:0px;
+      padding:0px;
+      text-align:left;
+    }
+    #txt-box{
+      width:60%;
+      margin-right:10px;
+      height:30px;
+    }
+    #addBtn{
+      padding:10px;
+      font-weight:bolder;
+      background-color:#dd99ff;
+      color:black;
+      border:none;
+    }
+    #addBtn:hover{background-color:#cc33ff;}
+    li{
+      padding:8px 5px 8px 50px;
+      font-weight:600;
+
+    }
+    .pending{
+      background-color:#ff9980;
+    }
+    .pending:hover{background-color:#ff5c33;}
+    .task-done{
+      background-color:#d2ff4d;
+    }
+    .task-done:hover{background-color:#99cc00;}
+    .close{float:right;margin-right:10px;}
+    @media only screen and (max-width:600px) {
+      #main-container{margin-top:50px;}
+    }
+  </style>
+
+  <body>
+    <div id="main-container">
+      <h1 >To-Do</h1>
+      <input type="text" id="txt-box">
+      <button id="addBtn">Add Task</button>
+      <hr>
+
+      <ul id="lst">
+      </ul>
+
+      </div>
+
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
